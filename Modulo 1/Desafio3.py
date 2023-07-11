@@ -1,0 +1,1 @@
+print(input('num1: ' ) , input('num2: '))
