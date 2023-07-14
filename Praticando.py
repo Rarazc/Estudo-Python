@@ -4,7 +4,7 @@ peso= int(input("peso: "))
 altura= float(input("altura: "))
 imc = peso/(altura ** 2)
 
-print("Dados do imc do paciente: {:=^20}".format(nome))
+print(f"Dados do imc do paciente: {nome:=^20}")
 
 match imc:
     case imc if 17 <= imc <= 18.4:
